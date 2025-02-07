@@ -21,12 +21,6 @@ A simple web crawler built with JavaScript that takes a website URL from the com
    npm install
    ```
 
-## Usage
-
-Run the crawler with the following command:
-```sh
-node crawler.js <website_url>
-```
 Example:
 ```sh
 node crawler.js https://example.com
@@ -45,7 +39,7 @@ https://example.com/contact - 5 links found
 
 ## Technologies Used
 - Node.js
-- Axios / Cheerio / Puppeteer (depending on the approach)
+- vanila JavaScript
 
 ## License
 This project is open-source and available under the MIT License.
