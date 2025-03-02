@@ -10,8 +10,9 @@ async function crawlPage(baseURL, currentURL, pages) {
   if (baseURLObj.hostname !== currentURLObj.hostname) {
     return pages
 
-  }
+  } 
 
+  
   const normalizedCurrentURL = normalizeURL(currentURL)
   if (pages[normalizedCurrentURL] > 0) {
     pages[normalizedCurrentURL]++
