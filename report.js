@@ -1,6 +1,6 @@
 function printreport(pages) {
     console.log("==========")
-    console.log("REPORTING")
+    console.log("START REPORTING")
     console.log("==========")
     const sortedPages = sortPages(pages)
     for (const sortedPage of sortedPages) {
